@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+#header-img {
+    height: 7rem;
+    margin-left: 6rem;
+
+}
+#nav-bar {
+    margin-right: 8rem;
+}
+#nav-bar  ul{
+    display: flex;
+    list-style-type: none;
+}
+#nav-bar a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin: 0 40px;
+}
+/* Form_____________________ */
+
+
+#form {
+    text-align: center;
+}
+#form #email {
+    display: block;
+    margin: 30px auto;
+    padding: 8px  20px;
+}
+
+#form #submit {
+    background-color: orangered;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+}
+#form #submit:hover {
+    transform: scale(1.2);
+    transition: transform 0.4s ease;
+}
+
+/* section 1 _____________________________________ */
+.sec-1 {
+    margin: auto;
+    width: 60%;
+    border-bottom: 1px solid gray;
+}
+.sec-1 h1 { 
+    margin-top: 40px;
+    text-align: center;
+}
+.sec-1 .sp-tit {
+    font-weight: 900;
+    font-size: 22px;
+    display: block;
+    margin-bottom: 15px;
+    /* color: rgb(240, 60, 60); */
+    text-align: left;
+
+}
+.sec-1 ul {
+    list-style-type: none;
+}
+.sec-1 li {
+    margin-top: 40px ;
+}
+/* Video ________________________________________ */
+#video {
+    display: block;
+    width: 50%;
+    height: 30%;
+    margin: 50px auto
+}
+.sec-prices {
+    display: flex;
+}
+.prices {
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    margin:60px 30px ;
+    border-radius: 7px;
+    border: 1px solid rgb(35, 34, 34) ;
+    background-color: rgb(233, 232, 232);
+}
+.sec-prices h5 {
+    padding-top: 30px;
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+.sec-prices .P-text{
+    margin: 0 auto;
+    width: 200px;
+}
+.sec-prices sub {
+    display: block;
+    background-color: red;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 20%;
+    align-items: end;
+    width: 20%;
+}
+.sec-prices sub:hover {
+    transform: scale(1.2);
+    transition: transform 0.4s ease;
+}
+/* Footer __________________________ */
+#footer {
+    
+    background-color: rgb(233, 232, 232);
+    border-top: 1px solid rgb(65, 63, 63);
+    text-align: end;
+    padding: 30px;
+
+}
+#footer ul {
+    list-style-type: none;
+    margin: 0 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+#footer li {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 20px;
+}
+#footer p {
+    margin:  10px 40px;
+    color: #3f3f3f;
+}
